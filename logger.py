@@ -10,4 +10,4 @@ def index():
     return 'hello world'
 
 if __name__ == '__main__':
-    app.run(debug=True, port='0.0.0.0')  # debug=True for auto-reload
+    app.run(debug=True)  # debug=True for auto-reload
